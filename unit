@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Px to REM Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="converter-card">
+        <h2>PX to REM Converter</h2>
+        <p class="subtitle">Based on a 16px root font size</p>
+        
+        <div class="input-group">
+            <label for="px-input">Pixels (px)</label>
+            <input type="number" id="px-input" placeholder="Enter px">
+        </div>
+
+        <div class="input-group">
+            <label for="rem-input">REM (rem)</label>
+            <input type="number" id="rem-input" placeholder="Enter rem">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
