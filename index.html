@@ -3,36 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My web page</title>
-    <link rel="shortcut icon" type="image/x-icon" href="jjj.png">
-<body>
-    <h1>La page web</h1>
-    <p>Le Web, ou World Wide Web (WWW), est un système d’accès et de publication d’informations sur Internet à travers des pages reliées entre elles par des liens hypertextes, consultables via un navigateur web.
-        <a href="https://github.com/alexhermionebouamama-cloud">github</a>
-        <a href="acceuil.html">accueil</a>
-    <h1>GOMYCODE</h1>
-<p>GOMYCODE est une entreprise technologique spécialisée dans l'éducation numérique (EdTech). Fondée en Tunisie en 2017 par Yahya et Amine Bouhlel, elle a pour objectif de démocratiser l'accès aux compétences digitales et à l'intelligence artificielle.</p>
+    <title>The Digital Café</title>
+    <link rel="shortcut icon" type="image/x-icon" href="téléchargement.png">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body style="background-color: #452B1F; font-family: 'Times New Roman', Times, serif, sans-serif; color: #333;">
+
+    <!-- 1. THE NAVIGATION BOARD ON TOP -->
+    <nav class="top-nav-board">
+        <div class="nav-links">
+            <a href="#accueil.html" class="active">Accueil</a>
+            <a href="#about-section">About</a>
+            <a href="https://github.com/alexhermionebouamama-cloud" target="_blank">GitHub</a>
+        </div>
+    </nav>
+
+    <!-- 2. YOUR LOGO (Now centered safely below the bar) -->
+  
+    <!-- 3. THE DIGITAL CAFÉ INTRO SECTION -->
+    <div id="about-section" class="about-container">
+        <h1>The Digital Café</h1>
+        <p><font color="white">The Digital Café is a modern coworking space and coffee shop. It is the perfect place for developers and tech enthusiasts to get their work done while enjoying premium, artisanally brewed coffee.</p>
+    </div>
+
+    <!-- The rest of your code (OUR MENU, Lists, Form) continues down here... -->
+    <I><h1>The Digital Café</h1></I>
+    <p><font color="white">The Digital Café is a modern coworking space and coffee shop. It is the perfect place for developers and tech enthusiasts to get their work done while enjoying premium, artisanally brewed coffee.
+    </p>
+    <I><h1>OUR MENU</h1></I>
+    <p><font color="white">Discover our selection of hot drinks and freshly baked pastries, made every morning to fuel your coding and creative sessions:</p>
+<!-- ==========================================
+     SECTION 1: HOT DRINKS
+     ========================================== -->
+<h3>Hot Drinks</h3>
 <ul>
-    <li>Html</li>
-    <li>Css</li>
-    <li>Java Script</li>
+    <li>
+        <span class="item-name">Arabica Coffee & Lattes</span>
+        <span class="item-price">250 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=200&auto=format&fit=crop" alt="Arabica Latte" class="product-img">
+        <p>A mix of single-origin Arabica beans, expertly brewed to create rich and flavorful coffee, perfect for a morning boost or an afternoon pick-me-up.</p>
+    </div>
+    
+    <li>
+        <span class="item-name">Espresso & Cappuccinos</span>
+        <span class="item-price">300 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=200&auto=format&fit=crop" alt="Cappuccino" class="product-img">
+        <p>Our espresso is made from a blend of high-quality beans, delivering a bold and intense flavor. Our cappuccinos are crafted with velvety steamed milk.</p>
+    </div>
+
+    <li>
+        <span class="item-name">Herbal Teas</span>
+        <span class="item-price">220 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=200&auto=format&fit=crop" alt="Herbal Tea" class="product-img">
+        <p>A variety of herbal teas, including chamomile, peppermint, and green tea, providing a soothing and refreshing option for a caffeine-free alternative.</p>
+    </div>
 </ul>
-<img src="gomycode..png" alt="image gomycode" width="50%" height="50%">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tyhOBdweeFo?si=0G1m_lYMgflpt5Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- ==========================================
+     SECTION 2: ICED DRINKS & COLD REFRESHERS (NEW)
+     ========================================== -->
+<h3>Iced Drinks & Cold Brew</h3>
+<ul>
+    <li>
+        <span class="item-name">Nitro Cold Brew</span>
+        <span class="item-price">450 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="nitro.jpeg" alt="Iced Coffee Glass" class="product-img">
+        <p>Our signature dark roast slow-steeped for 20 hours, infused with nitrogen on tap to create a creamy, cascade finish with zero bitterness.</p>
+    </div>
+
+    <li>
+        <span class="item-name">Iced Matcha Tonic</span>
+        <span class="item-price">420 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="matcha tonic.jpeg" alt="Iced Matcha" class="product-img">
+        <p>Ceremonial grade pure Japanese Uji matcha shaken over ice with fresh lime slices and premium organic tonic water.</p>
+    </div>
+</ul>
+
+<!-- ==========================================
+     SECTION 3: PLANT-BASED SPECIALTIES
+     ========================================== -->
+<h3>Milk and Speciality Coffees</h3>
+<ul>
+    <li>
+        <span class="item-name">Oat Milk Lattes</span>
+        <span class="item-price">380 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="oat.jpeg" alt="Oat Latte" class="product-img">
+        <p>Our oat milk lattes are creamy and delicious, made with our signature espresso and topped with frothy oat milk.</p>
+    </div>
+    
+    <li>
+        <span class="item-name">Almond Milk Cappuccinos</span>
+        <span class="item-price">380 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="images.jpeg" alt="Almond Cappuccino" class="product-img">
+        <p>Our almond milk cappuccinos are a nutty twist on the classic cappuccino, made with our rich espresso and micro-foamed almond milk.</p>
+    </div>
+    
+    <li>
+        <span class="item-name">Vegan Mocha Plunge</span>
+        <span class="item-price">400 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=200&auto=format&fit=crop" alt="Vegan Mocha Chocolate" class="product-img">
+        <p>Our vegan mocha is a decadent treat, made with our signature espresso, dark premium cocoa, and steamed almond milk.</p>
+    </div>
+</ul>
+
+<!-- ==========================================
+     SECTION 4: FRESH BAKED PASTRIES
+     ========================================== -->
+<h3>Pastries</h3>
+<ul>
+    <li>
+        <span class="item-name">Freshly Baked Croissants</span>
+        <span class="item-price">180 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=200&auto=format&fit=crop" alt="Croissant" class="product-img">
+        <p>Our croissants are flaky and buttery, made completely fresh daily by our artisan pastry chef for that perfect golden crunch.</p>
+    </div>
+
+    <li>
+        <span class="item-name">Chocolate Muffins</span>
+        <span class="item-price">220 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?q=80&w=200&auto=format&fit=crop" alt="Chocolate Muffin" class="product-img">
+        <p>Our chocolate muffins are incredibly rich and decadent, packed tight with high-quality melted dark cocoa chunks.</p>
+    </div>
+
+    <li>
+        <span class="item-name">Gluten-Free Honey Cookies</span>
+        <span class="item-price">150 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="cookie.jpeg" alt="Cookies Plate" class="product-img">
+        <p>Our gluten-free cookies are made using premium almond flour base and sweetened naturally with locally harvested organic honey.</p>
+    </div>
+</ul>
+
+<!-- ==========================================
+     SECTION 5: SAVORY BRUNCH BITES (NEW)
+     ========================================== -->
+<h3>Tech Brunch Bites</h3>
+<ul>
+    <li>
+        <span class="item-name">Smashed Avocado Toast</span>
+        <span class="item-price">550 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="avo.jpeg" alt="Avocado Toast Slice" class="product-img">
+        <p>Crusty sourdough bread toasted with real extra virgin olive oil, topped with freshly smashed seasoned avocados and sesame chili flakes.</p>
+    </div>
+</ul>
+<!-- ==========================================
+     SECTION 6: ICED SIGNATURE COFFEES
+     ========================================== -->
+<h3>Iced Signature Coffees</h3>
+<ul>
+    <li>
+        <span class="item-name">Iced Caramel Macchiato</span>
+        <span class="item-price">460 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://yi-files.yellowimages.com/products/1931000/1931981/3094858-cover.jpg" alt="Iced Caramel Macchiato Glass" class="product-img">
+        <p>Chilled milk vanilla-flavored syrup marked with our intense espresso and topped with a buttery proprietary caramel drizzle over crushed ice.</p>
+    </div>
+</ul>
+
+<!-- ==========================================
+     SECTION 7: PREMIUM GRILLED PANINIS
+     ========================================== -->
+<h3>Developer Sandwiches & Mains</h3>
+<ul>
+    <li>
+        <span class="item-name">Artisan Turkey & Pesto Panini</span>
+        <span class="item-price">680 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://weekendatthecottage.com/wp-content/uploads/2017/08/PaniniBeautySLATE.jpg" alt="Panini Sandwich Grilled" class="product-img">
+        <p>Fresh whole-wheat focaccia bread pressed hot with smoked turkey breast slices, melted mozzarella cheese, and rich homemade basil pesto.</p>
+    </div>
+</ul>
+
+<!-- ==========================================
+     SECTION 8: SIGNATURE CAFE SWEETS
+     ========================================== -->
+<h3>Desserts & Sweet Plates</h3>
+<ul>
+    <li>
+        <span class="item-name">Classic New York Cheesecake</span>
+        <span class="item-price">480 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://www.onceuponachef.com/images/2017/12/cheesecake-760x882.jpg" alt="Cheesecake Slice on a Plate" class="product-img">
+        <p>A dense, velvety smooth cream cheese cake base sitting on a crunchy, sweet graham cracker butter crust layer.</p>
+    </div>
+
+    <li>
+        <span class="item-name">Belgian Sugar Waffles</span>
+        <span class="item-price">520 DA</span>
+    </li>
+    <div class="advanced-box">
+        <img src="https://tatyanaseverydayfood.com/wp-content/uploads/2020/09/Cinnamon-Waffles-with-Fruit-768x1024.jpg" alt="Waffles with Syrup Fruit" class="product-img">
+        <p>Crispy golden waffles dusted lightly with pearl sugar, topped with freshly whipped dairy cream cream and organic mixed berries.</p>
+    </div>
+</ul>
 <form action="/submit" method="post">
-<label for="name">Name:</label>
+   <p>To contact us, please fill out the form below:</p>
+<label for="name"><font color="white">Name:</label>
 <input type="text" id="name" name="name" placeholder="Name">
 <br><br>
-<label for="firstname">First name:</label>
-<input type="text" id="first name" name="firstname" placeholder="First-name">
+<label for="firstname"><font color="white">First name:</label>
+<input type="text" id="firstname" name="firstname" placeholder="First-name">
 <br><br>
-<label for="password">Password:</label>
+<label for="password"><font color="white">Password:</label>
 <input type="text" id="password" name="password" placeholder="Password">
 <br><br>
-<label for="email">E-mail:</label>
+<label for="email"><font color="white">E-mail:</label>
 <input type="text" id="email" name="email" placeholder="E-mail">
 <br><br>
-<button> submit</button>
+<button>Submit</button>
 </form>
+<footer>
+    <p>&copy; 2026 Nour Bouamama. All rights reserved.</p>
+</footer>
 </body>
 </html>

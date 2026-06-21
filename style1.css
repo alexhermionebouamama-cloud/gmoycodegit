@@ -1,0 +1,140 @@
+h1 {
+    color: #ffffff;
+}
+h3 {
+    color: #ffffff;
+}
+ul {
+    color: #ffffff;
+    font-size: 16px;
+}
+div.advanced-box {
+{ background-color: #452B1F}
+    background-color: #452B1F;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+    /* 1. This rounds the corners immensely to create the cylinder capsule shape */
+    border-radius: 30px;       
+
+    /* 2. OPTIONAL: Adding a gradient makes it look 3D and shiny like a real cylinder */
+    background: linear-gradient(to right, #452b1f, #7c5234, #452b1f);
+}
+   
+} 
+p {
+    color: #ffffff;
+    font-size: 14px;
+}
+/* Aligns the drink name on the left and the price on the right */
+ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e6ccb2;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+/* Styles the product images inside your cylindrical boxes */
+.product-img {
+    display: block;
+    width: 100%;          /* Makes the image stretch across the box */
+    height: 140px;        /* Limits the height so it stays compact */
+    object-fit: cover;    /* Crops the image cleanly so it doesn't look squished */
+    border-radius: 20px;  /* Matches your box's cylindrical curves */
+    margin-bottom: 12px;  /* Pushes the paragraph text below the image */
+}
+/* Makes the product images small and squares them up */
+.product-img {
+    float: left;          /* Pushes the image to the left side */
+    width: 80px;          /* Sets a small, clean width */
+    height: 80px;         /* Sets a small, clean height */
+    object-fit: cover;    /* Keeps the image from looking stretched */
+    border-radius: 15px;  /* Matches the rounded cylinder style */
+    margin-right: 15px;   /* Adds spacing between the image and the text */
+}
+
+/* Fixes the box layout so the floating image stays inside it */
+div.advanced-box {
+    background: linear-gradient(to right, #452b1f, #7c5234, #452b1f);
+    border: 1px solid #7c5234; 
+    padding: 15px;             
+    margin-top: 8px;
+    margin-bottom: 20px;       
+    border-radius: 30px;       
+    overflow: hidden;     /* 👈 CRITICAL: This keeps the image safely inside the box curves */
+}
+/* Makes the product images larger and cleaner */
+.product-img {
+    float: left;          /* Keeps it on the left side */
+    width: 110px;         /* 👈 Increased from 80px to 110px to make it bigger */
+    height: 110px;        /* 👈 Increased from 80px to 110px to keep it a perfect square */
+    object-fit: cover;    
+    border-radius: 20px;  /* Slightly rounder corners to match the bigger size */
+    margin-right: 18px;   /* Pushes the text a bit further to the right */
+}
+
+/* Adjusts the box container to hold the bigger images comfortably */
+div.advanced-box {
+    background: linear-gradient(to right, #452b1f, #7c5234, #452b1f);
+    border: 1px solid #7c5234; 
+    padding: 20px;        /* 👈 Increased from 15px to 20px for more spacing inside */
+    margin-top: 8px;
+    margin-bottom: 20px;       
+    border-radius: 30px;       
+    overflow: hidden;     
+}
+/* ==========================================
+   TOP NAVIGATION BOARD STYLES
+   ========================================== */
+
+/* The main container board stretching across the top */
+.top-nav-board {
+    background-color: #2b1b12;        /* Dark espresso background for the board */
+    border-bottom: 2px solid #2b1b12; /* A warm brown divider line under the bar */
+    position: static;                 /* Keeps it cleanly sitting at the top of the page */
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+/* Container to center your navigation links */
+.nav-links {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;          /* Centers all links horizontally */
+    gap: 30px;                        /* Adds clean spacing between the links */
+}
+
+/* Individual link button designs */
+.nav-links a {
+    color: #ede0d4;                   /* Soft off-white text color */
+    text-decoration: none;            /* Removes standard underlines */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;          /* Clean modern look for the menu links */
+    padding: 8px 16px;
+    border-radius: 20px;              /* Gives them a smooth pill shape when hovered */
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover effect: what happens when you mouse over a link */
+.nav-links a:hover {
+    background-color: #7c5234;        /* Fills the pill link with rich brown */
+    color: #ffffff;
+}
+
+/* Active effect: highlights the current page link */
+.nav-links a.active {       /* Bright accent color for the page you are on */
+    color: #ffffff;
+}
+
+/* Quick fix for your header container spacing */
+.about-container {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
